@@ -1,0 +1,43 @@
+.sidebar{
+    padding: 10px;
+    width: 260px;
+    /*width: 13%;*/
+    background-color: #18181b;
+    height:100%;
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    border-right: 1px solid white;
+}
+
+.sidebar>h5{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.channel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.channel_profile_image{
+    object-fit: contain;
+    width:40px;
+    margin-right: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+.channel_details{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_top_Show_more{
+    color: blueviolet;
+}

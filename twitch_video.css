@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.video_container{
+    color: aliceblue;
+}
+
+.middle_streamer_stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.streamer_profile_image{
+    object-fit: contain;
+    width:100px;
+    margin-right: 15px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+.streamer_stats_left{
+    display: flex;
+    flex: 1;
+}
+
+.stream_username{
+    padding-top: 35px;
+}
+
+.username_p{
+    font-weight: bold;
+}
+
+.game_streamed{
+    color: rgb(139, 72, 201);
+}
+
+.streamer_stats_right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.view_count{
+    color: rgb(199, 71, 71);
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.time_streamed{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.share_stream{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.more_stream_options{
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.panel_container{
+    padding-top: 50px;
+}

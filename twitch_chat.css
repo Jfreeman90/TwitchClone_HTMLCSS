@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stream_chat_container{
+    color: aliceblue;;
+}
+
+.chat_welcome_message{
+    color: darkgray;
+}
+
+.chat_username{
+    color: rgb(77, 145, 223);
+    font-weight: bold;
+}
+
+.chat_message{
+    color: rgb(205, 216, 228);
+}

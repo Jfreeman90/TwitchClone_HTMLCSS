@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="twitch_header.css">
+    <link rel="stylesheet" href="pagesplit.css">
+    <link rel="stylesheet" href="twitch_reccomended.css">
+    <link rel="stylesheet" href="twitch_video.css">
+    <link rel="stylesheet" href="twitch_chat.css">
+    <title>Twitch Clone</title>
+</head>
+<script src="https://kit.fontawesome.com/dc750f86d7.js" crossorigin="anonymous"></script>
+<body>
+    <!-------------------------HEADER---------------------------->
+    <header>
+        <!-- left side of the header-->
+        <div id="header_left">
+            <!-- logo-->
+            <div class="header_left_container">
+                <img class ="header_left_logo" src="twitch-logo-png-1873.png" alt="twitch logo">
+            <div class="h2_following_container">
+                <h2>Following</h2>
+            </div>
+            <div class="h2_browse_container">
+                <h2>Browse</h2>
+            </div>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </div>
+
+        <!-- middle of the header-->
+        <div id ="header_mid">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- right side of the header--> 
+        <div id ="header_right">
+            <div class="header_right_container">
+                <i class="fa-solid fa-crown"></i>
+                <i class="fa-solid fa-envelope-open"></i>
+                <i class="fa-solid fa-message"></i>
+                <div class="header_right_bits">
+                    <i class="fa-solid fa-gem"></i>
+                    <h4>Get bits</h4>
+                </div>
+                <div class="header_right_profile_container">
+                    <img class="header_profile_image" src="Monitor-Lizard_-Dhritiman-Mukherjee1-copy-2-1_vl7rav.webp" alt="Profile image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------LEFT RECCOMENDED-------------------------->
+    <div id = "boxes">        
+        <div id = "leftbox">
+            <div class="sidebar">
+                <h5>FOLLOWED CHANNELS</h5>
+                <!--Channel div info-->
+                <div class="channel">
+                    <div class="channel_details">
+                        <img class="channel_profile_image" src="cat_images_12352a.jpg" alt="Profile image">
+                        <p>Catsss420meowww</p>
+                    </div>
+                    <i class="fa-solid fa-circle" style="color:crimson"></i>
+                    <p>268</p>
+                </div>
+                <p class="sidebar_top_Show_more">Show more...</p>
+        
+                <h5>RECCOMENDED CHANNELS</h5>
+                <!--Channel div info-->
+                <div class="channel">
+                    <div class="channel_details">
+                        <img class="channel_profile_image" src="golden-retriever-royalty-free-image-506756303-1560962726.jpg" alt="Profile image">
+                        <p>BALLBALLBALL</p>
+                    </div>
+                    <i class="fa-solid fa-circle" style="color:crimson"></i>
+                    <p>698</p>
+                </div>
+                <p class="sidebar_top_Show_more">Show more...</p>
+            </div>
+        </div> 
+
+        <!------------------------MID VIDEO-------------------------->
+        <div id = "middlebox">
+            <div class="video_container">
+                <img src="apex_legends.PNG" alt="Video player" width="100%" height="75%">
+            
+                <div class="middle_streamer_stats">
+                <!--Right side of streamer stats-->
+                <div class="streamer_stats_left">
+                    <div class="streamer_avatar">
+                        <img class="streamer_profile_image" src="golden-retriever-royalty-free-image-506756303-1560962726.jpg" alt="Profile image">
+                    </div>
+                    <div class="stream_username">
+                        <p style="font-weight:bold">BALLBALLBALL</p>
+                        <p>Streaming title goes here!</p>
+                        <p class="game_streamed">Apex legends</p>
+                    </div>
+                </div>
+                <!--Right side of streamer stats-->
+                <div class="streamer_stats_right">
+                    <div class="viewer_icon">
+                        <i class="fa-solid fa-user" style="color: rgb(199, 71, 71);"></i>
+                    </div>
+                    <div class="view_count">
+                        <p>698</p>
+                    </div>
+                    <div class="time_streamed">
+                        <p>5:45:16</p>
+                    </div>
+                    <div class="share_stream">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                    </div>
+                    <div class="more_stream_options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+            </div>
+            <!--Panels below the stream here -->
+            <div class="panel_container">
+                <div class="panels_info"></div>
+                <p>Panels below...</p>
+            </div>
+        </div>
+        </div>
+
+        <!------------------------RIGHT CHAT-------------------------->
+        <div id = "rightbox">
+            <div class="stream_chat_container">
+                <!--top of stream chat information -->
+                <div class="stream_header_left">
+                    <div class="close_stream_chat_button">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </div>
+                </div>
+                <div class="stream_header_mid">
+                    <div class="close_stream_chat_button">
+                        <p>STREAM CHAT</p>
+                    </div>
+                </div>
+                <div class="stream_header_right">
+                    <div class="community_button">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                </div>
+                
+
+            </div>
+            <!--Chat messages here -->
+            <div class="chat_messages_container">
+                <div class="chat_welcome_message_container">
+                    <p class="chat_welcome_message">Welcome top the chat room!</p></div>
+                <div class="chat_message">
+                    <p class="chat_username">Username</p>
+                    <p class="chat_message">message...</p>
+                </div>
+                <div class="chat_message">
+                    <p class="chat_username">Username</p>
+                    <p class="chat_message">message...</p>
+                </div>
+            </div>
+
+            <!--Chat box here -->
+            <div class="chat-box-container">
+                <p>Chat</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

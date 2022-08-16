@@ -1,0 +1,20 @@
+#leftbox {
+    float:left; 
+    background-color: #18181b;
+    width: 260px;
+    height:100vh;
+}
+
+#middlebox{
+    float:left; 
+    background-color: #18181b;
+    width:62.5%;
+    height:100vh;
+}
+
+#rightbox{
+    float:right;
+    background-color: #18181b;
+    width:453px;
+    height:100vh;
+}
