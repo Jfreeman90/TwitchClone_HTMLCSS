@@ -21,19 +21,23 @@
             <div class="header_left_container">
                 <img class ="header_left_logo" src="twitch-logo-png-1873.png" alt="twitch logo">
             <div class="h2_following_container">
-                <h2>Following</h2>
+                <h3>Following</h3>
             </div>
             <div class="h2_browse_container">
-                <h2>Browse</h2>
+                <h3>Browse</h3>
             </div>
                 <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
         </div>
 
         <!-- middle of the header-->
-        <div id ="header_mid">
-            <input type="text" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <div class ="header_mid">
+            <div class="search-container">
+                <input type="text" placeholder="Search" id="search-input">
+            </div>
+            <div class="search-icon-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         </div>
 
         <!-- right side of the header--> 
@@ -165,7 +169,32 @@
 
             <!--Chat box here -->
             <div class="chat-box-container">
-                <p>Chat</p>
+                <!--Input box-->
+                <div class="message-box-container">
+                    <input type="text" name="chat_message_input" id="message-input" placeholder="Send a message">
+                </div>
+                <!--Chat buttons and submit -->
+                <div class="chat-button-submit-container">
+                    <div class="left-side-chat-buttons">
+                        <div class="viewer-points-icon">
+                            <i class="fa-solid fa-bone"></i>
+                        </div>
+                        <div class="viewer-points-total">
+                            <p class="viewer-point-total-text">66k</p>
+                        </div>
+                    </div>
+                    <div class="right-side-chat-buttons">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="emoji-icon">
+                            <i class="fa-solid fa-face-grin"></i>
+                        </div>
+                        <div class="submit-message-container">
+                            <button class="message-submit-button">Chat</button>
+                        </div>
+                    </div>
+                </div>  
             </div>
         </div>
 

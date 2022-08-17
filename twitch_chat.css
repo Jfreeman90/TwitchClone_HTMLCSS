@@ -3,12 +3,38 @@
     box-sizing: border-box;
 }
 
-.stream_chat_container{
-    color: aliceblue;;
+i{
+    color: aliceblue;
 }
 
+.stream_chat_container{
+    color: aliceblue;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stream_header_left{
+    display: flex;
+    flex: 1;
+    padding-left: 15px;
+}
+
+.stream_header_mid{
+    height: 3.5rem;
+    padding-top: 18px;
+}
+
+.stream_header_right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
 .chat_welcome_message{
     color: darkgray;
+    padding-left: 10px;
 }
 
 .chat_username{
@@ -17,5 +43,86 @@
 }
 
 .chat_message{
-    color: rgb(205, 216, 228);
+    color: rgb(163, 169, 175);
+    padding-left: 10px;
+}
+
+.chat-box-container{
+    position: absolute; 
+    bottom: 0; 
+    width: 452px;  
+}
+
+.message-box-container{
+    width: 100%; 
+    align-items: center;
+}
+
+.chat-button-submit-container{
+    width: 100%; 
+}
+
+.viewer-points-total{
+    color: aliceblue;
+}
+
+#message-input{
+    height:4rem;
+    background-color: #4a4a4c;;
+    width:100%;
+    color: aliceblue;
+}
+
+#message-input:hover{
+    border: 1px solid gray;
+}
+
+.chat-button-submit-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.left-side-chat-buttons{
+    display: flex;
+    flex: 1;
+}
+
+.viewer-points-icon{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.right-side-chat-buttons{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.settings-icon{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.emoji-icon{
+    padding-top: 25px;
+}
+
+.submit-message-container{
+    padding: 20px;
+}
+
+.message-submit-button{
+    height:2rem;
+    width:50px;
+    background-color:blueviolet;;
+    color: rgba(240, 248, 255, 0.822);
+    font-weight: bold;
+    border: 1px solid blueviolet;;
+    border-radius: 10%;
+}
+.message-submit-button:hover{
+    background-color: rgb(107, 16, 107);
+    border: 1px solid rgb(107, 16, 107);
 }
