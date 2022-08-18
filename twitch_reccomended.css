@@ -25,6 +25,19 @@
     margin-bottom: 15px;
 }
 
+.channel-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.channel_details_left{
+    display: flex;
+    flex: 1;
+}
+
+
 .channel_profile_image{
     object-fit: contain;
     width:40px;
@@ -33,11 +46,53 @@
     border-radius: 50%;
 }
 
-.channel_details{
-    display: flex;
-    align-items: center;
+.channel_profile_image_offline{
+    object-fit: contain;
+    width:40px;
+    margin-right: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+    filter: grayscale(100%);
 }
 
+.channel_details_username{
+    padding-right: 5px;
+}
+
+.channel-username{
+    padding-top: 13px;
+}
+
+.channel-username-offline{
+    padding-top: 13px;
+    color:grey;
+}
+
+.category-streamed{
+    color:grey;
+    font-size: small;
+}
+
+.channel_details_right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.offline-{
+    color:grey;
+    font-size: small;
+}
+
+.live-circle-icon{
+    padding-right: 5px;
+    padding-top: 5px;
+    font-size: 8px;
+}
+
+.viewer-count-text{
+    font-size: 1rem;
+}
 .sidebar_top_Show_more{
     color: blueviolet;
 }
