@@ -16,6 +16,14 @@
     margin-bottom: 15px;
 }
 
+.followed-channel-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+
 .channel{
     width: 100%;
     display: flex;
